@@ -1,0 +1,23 @@
+body{
+  background-image: url('../img/bg.JPG');
+  height: 100vh
+}
+
+.my-main .container{
+  flex-direction: column;
+}
+
+.my-carousel{
+  align-self: flex-end;
+}
+
+.container .left-side{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-me{
+  gap: 30px;
+  color: rgb(2, 150, 155);
+}
